@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #000;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+}
+
+h1{
+    color: #fff;
+    padding: 18px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.adicionar-item{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+#new-task,
+#btn-button{
+    border: none;
+    font-size: 1rem;
+    outline: none;
+    padding: 1rem;
+}
+
+#new-task{
+    width: 20rem;
+    border-radius: 1rem;
+
+}
+
+#btn-button{
+    background-color: #8000ff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+#btn-button:hover{
+    background-color: rgb(87, 77, 91);
+}
+
+#minha-lista{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0;
+}
+
+#minha-lista li{
+    list-style-type: none;
+    font-size: 1.4rem;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+#btn-ok{
+    border: none;
+    background-color: #8000ff;
+    color: #fff;
+    padding: .4rem .8rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   cursor: pointer;
+   transition: .4s;
+   align-items: center;
+}
+
+#minha-lista li:hover{
+    background-color: #8000ff;
+    transition: .4s;
+    border-radius: 1rem;
+    padding-left: 1rem;
+}
+
+#btn-ok:hover{
+    background-color: #312929;
+}
+
+
+
+
+
+
+
